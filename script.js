@@ -50,7 +50,7 @@ function onHandleClick(handle) {
     )
 
     const progressBarItemCount = progressBar.children.length;
-    console.log(progressBarItemCount);
+    // console.log(progressBarItemCount);
 
     if (handle.classList.contains("left-handle")) {
         if (sliderIndex - 1 < 0) {
